@@ -103,18 +103,26 @@ header p { /* harvested with care... */
 
 nav {
     background: var(--champagne-gold);
-    padding: 15px;
-    text-align: center;
+    padding: 2px;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
 nav a {
     color: var(--dark-charcoal);
+    font-size: 1.6rem;
     font-weight: bold;
     display: block;
     padding: 10px;
     text-decoration: none;
 }
+
+/* HEADINGS */
+
+
+
