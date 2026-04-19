@@ -52,3 +52,69 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ROOT VARIABLES */
+:root {
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: var(--soft-white);
+    color: var(--dark-charcoal);
+    line-height: 1.5;
+}
+
+main {
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
+
+header img {
+    width: 120px;
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+header h1 { /* field & feast title */
+    font-size: 2.5rem;
+}
+
+header p { /* harvested with care... */
+
+}
+
+/* NAVIGATION */
+
+nav {
+    background: var(--champagne-gold);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: var(--dark-charcoal);
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
