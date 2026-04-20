@@ -92,11 +92,13 @@ header img {
 }
 
 header h1 { /* field & feast title */
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    font-weight: 700;
 }
 
 header p { /* harvested with care... */
-
+    font-style: italic;
+    font-size: 1rem;
 }
 
 /* NAVIGATION */
@@ -116,7 +118,7 @@ nav ul {
 nav a {
     color: var(--dark-charcoal);
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 700;
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -124,5 +126,82 @@ nav a {
 
 /* HEADINGS */
 
+h2 {
+    color: var(--midnight-blue);
+    text-align: left;
+    font-size: 2rem;
+    margin: 40px 0 2px 0; 
+    padding-left: 10px;
+}
 
+h3 { /* our offerings titles */
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+
+#about article {
+    background: var(--soft-white);
+    padding: 15px;
+    border-radius: 10px; 
+}
+
+/* OFFERINGS */
+
+#offerings {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+#offerings article {
+    background: var(--olive-green);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid var(--olive-green);
+}
+
+#offerings ul {
+    margin-top: 10px;
+}
+
+/* GALLERY */ 
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.gallery-grid figure {
+    background: var(--soft-white);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.gallery-link {
+    background: var(--olive-green);
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 12px;
+    width: 80%;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: var(--midnight-blue);
+    color: var(--soft-white);
+}
+
+/* BREAKPOINTS */
 
