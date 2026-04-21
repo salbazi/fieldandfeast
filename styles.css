@@ -73,7 +73,7 @@ body {
 }
 
 main {
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -156,18 +156,70 @@ h3 { /* our offerings titles */
 
 #offerings article {
     background: var(--olive-green);
+    color: var(--soft-white);
     padding: 15px;
     border-radius: 10px;
-    border-left: 5px solid var(--olive-green);
+    margin: 0 10px;
+    box-shadow: 0 3px 5px gray;
+}
+
+#offerings h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
 }
 
 #offerings ul {
     margin-top: 10px;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+#offerings li {
+    margin-bottom: 5px;
+}
+
+#offerings,
+#gallery {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 2px solid var(--champagne-gold);
+}
+
+#gallery {
+    border-bottom: 2px solid var(--champagne-gold);
+    padding-bottom: 18px;
+}
+
+#offerings h2,
+#gallery h2 {
+    margin: 0 0 12px 0;
+}
+
+/* CONTACTS */
+
+#contact {
+    background: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 48px 20px 80px 20px;
+    margin-top: 20px;
+}
+
+#contact p {
+    margin-bottom: 8px;
+}
+
+#contact a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* GALLERY */ 
 
 .gallery-grid {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
@@ -175,9 +227,10 @@ h3 { /* our offerings titles */
 
 .gallery-grid figure {
     background: var(--soft-white);
-    padding: 10px;
     border-radius: 10px;
-    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 3px 6px gray;
+    margin: 0;
 }
 
 .gallery-grid img {
@@ -186,16 +239,28 @@ h3 { /* our offerings titles */
     display:block;
 }
 
+.gallery-grid figcaption {
+    text-align: center;
+    font-style: italic;
+    padding: 12px 10px;
+    font-size: 1rem;
+}
 .gallery-link {
     background: var(--olive-green);
     color: white;
     display: block;
     text-align: center;
-    margin: 20px auto;
+    font-weight: bold;
+    margin: 20px 0 0 0;
     padding: 12px;
-    width: 80%;
     text-decoration: none;
     border-radius: 8px;
+}
+
+/* SOCIALS */
+
+.social-links {
+    margin-top: 40px;
 }
 
 nav a:hover {
