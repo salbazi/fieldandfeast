@@ -1,6 +1,6 @@
-/* CSS BY Savannah Albazi */
+/*CSS BY Savannah Albazi*/
 
-/* IMPORTED FONTS */
+/*IMPORTED FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* CSS RESET */
@@ -53,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-/* ROOT VARIABLES */
+/*ROOT VARIABLES*/
 :root {
     --midnight-blue: #1F2A44;
     --olive-green: #76885B;
@@ -63,7 +63,7 @@ table {
     --soft-white: #FAF9F6;
 }
 
-/* GLOBAL STYLES (mobile first/small) */
+/*GLOBAL STYLES (mobile first/small)*/
 
 body {
     font-family: 'Playfair Display', serif;
@@ -91,12 +91,12 @@ header img {
     margin-bottom: 10px;
 }
 
-header h1 { /* field & feast title */
+header h1 { /*field & feast title*/
     font-size: 3.2rem;
     font-weight: 700;
 }
 
-header p { /* harvested with care... */
+header p { /*harvested with care...*/
     font-style: italic;
     font-size: 1rem;
 }
@@ -128,7 +128,7 @@ nav a {
     text-decoration: none;
 }
 
-/* HEADINGS */
+/*HEADINGS*/
 
 h2 {
     color: var(--midnight-blue);
@@ -138,11 +138,11 @@ h2 {
     padding-left: 10px;
 }
 
-h3 { /* our offerings titles */
+h3 { /*our offerings titles*/
     margin-bottom: 10px;
 }
 
-/* ABOUT */
+/*ABOUT*/
 
 #about article {
     background: var(--soft-white);
@@ -151,7 +151,7 @@ h3 { /* our offerings titles */
     margin-top: -12px;
 }
 
-/* OFFERINGS */
+/*OFFERINGS*/
 
 #offerings {
     display: grid;
@@ -206,7 +206,7 @@ h3 { /* our offerings titles */
     padding-left: 0;
 }
 
-/* CONTACTS */
+/*CONTACTS*/
 
 #contact {
     background: var(--midnight-blue);
@@ -227,7 +227,7 @@ h3 { /* our offerings titles */
     font-weight: bold;
 }
 
-/* GALLERY */ 
+/*GALLERY*/ 
 
 .gallery-grid {
     margin-top: 20px;
@@ -269,7 +269,7 @@ h3 { /* our offerings titles */
     border-radius: 8px;
 }
 
-/* SOCIALS */
+/*SOCIALS*/
 
 .social-links {
     margin-top: 50px;
@@ -280,9 +280,9 @@ nav a:hover {
     color: var(--soft-white);
 }
 
-/* BREAKPOINTS */
+/*BREAKPOINTS*/
 
-/* MEDIUM- 600PX */
+/* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     
     #offerings {
@@ -303,7 +303,7 @@ nav a:hover {
     }
 }
 
-/* LARGE- 900PX */
+/* MEDIA QUERY (large) */
 @media (min-width: 900px) {
     
     #offerings {
@@ -324,7 +324,7 @@ nav a:hover {
     }
 }
 
-/* X-LARGE- 1200PX */
+/* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
     
     main {
