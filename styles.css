@@ -144,6 +144,7 @@ h3 { /* our offerings titles */
     background: var(--soft-white);
     padding: 15px;
     border-radius: 10px; 
+    margin-top: -12px;
 }
 
 /* OFFERINGS */
@@ -151,7 +152,7 @@ h3 { /* our offerings titles */
 #offerings {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 20px;
 }
 
 #offerings article {
@@ -191,9 +192,14 @@ h3 { /* our offerings titles */
     padding-bottom: 18px;
 }
 
+#gallery article {
+    margin-top: -12px;
+}
+
 #offerings h2,
 #gallery h2 {
     margin: 0 0 12px 0;
+    padding-left: 0;
 }
 
 /* CONTACTS */
@@ -245,10 +251,11 @@ h3 { /* our offerings titles */
     font-style: italic;
     padding: 12px 10px;
     font-size: 1rem;
+    color: var(--dark-charcoal);
 }
 .gallery-link {
     background: var(--olive-green);
-    color: white;
+    color: var(--soft-white);
     display: block;
     text-align: center;
     font-weight: bold;
